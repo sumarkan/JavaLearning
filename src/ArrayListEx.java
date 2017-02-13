@@ -16,10 +16,6 @@ public class ArrayListEx {
         out.println(stringList);
         Set set = new TreeSet();
         set.addAll(stringList);
-
-
-
-
     }
 
     public static void iterateList(List<String> stringList){
