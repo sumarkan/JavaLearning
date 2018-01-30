@@ -7,7 +7,8 @@ import static java.lang.System.out;
  */
 public class HashSetEx {
     public static void main(String[] args) {
-        Set<String> stringList = new HashSet(Arrays.asList(new String[]{"Ruthvik","Santosh","Nihanth","Nihanth"}));
+        Set<String> stringList =
+                new HashSet(Arrays.asList(new String[]{"Ruthvik","Santosh","Nihanth","Nihanth"}));
 
         addDuplicates(stringList);
         iterateSet(stringList);
