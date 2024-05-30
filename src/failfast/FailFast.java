@@ -18,6 +18,7 @@ public class FailFast {
            Entry ele = (Entry) iterator.next();
            out.println(ele.getKey());
            out.println(ele.getValue());
+            map.put("4", "babai");// results in Exception in thread "main" java.util.ConcurrentModificationException
        }
 
 
